@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+body{
+    background-color:#436052;
+}
+
+#title{
+    background-color: beige;
+
+    font-size:80px;
+    text-align: center;
+    color: black;
+    font-family: 'Yuji Mai', serif;
+    letter-spacing: -6px;
+
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 5px solid black;
+}
+
+.foundation{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+
+#maron{
+    width: 170px;
+    height: 180px;
+}
+
+#read{
+    width: 130px;
+    height: 130px;
+}
+
+/*#read2{
+    width: 130px;
+    height: 130px;
+    display: none;
+}*/
+
+#allClear{
+    width: 130px;
+    height: 130px;
+}
+
+#inputErea{
+    font-size: 20px;
+    font-family: 'Yuji Mai', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ku{
+    display: flex;
+    padding: 7px;
+}
+
+input[type="text"]{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    padding-right: 10px;
+}
+
+
+.sheet{
+    writing-mode: vertical-rl;
+    flex-wrap: wrap;
+
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-right: 5px;
+
+}
+
+/*各ブロック内のルール*/
+.message{
+    background-color: beige;
+    font-family: 'Yuji Mai', serif;
+    margin: 20px;
+    padding: 30px;
+    padding-bottom: 30px;
+
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
