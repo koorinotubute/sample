@@ -1,2 +1,2 @@
 # sample
-## これはサンプルです。
+[Visit a site](https://koorinotubute.github.io/sample/)
